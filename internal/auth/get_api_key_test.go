@@ -9,7 +9,7 @@ import (
 func TestGetAPIKey(t *testing.T) {
 	tests := map[string]struct {
 		headers   http.Header
-		want      strin
+		want      string
 		wantErr   error
 		expectErr bool
 	}{
